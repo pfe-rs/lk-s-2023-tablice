@@ -1,0 +1,17 @@
+YOLOv8 detection:
+  mAP-50: 0.957
+  mAP-50-95: 0.582
+
+Plate adjustment (transformation):
+  Success rate: 0.743
+
+Character segmentation:
+  Success rate: 0.469
+
+Character CNN:
+  Character test set accuracy: 0.976
+  License plate character set accuracy: 0.721
+
+General results:
+  Chance for everything to go exactly as planned and succeed: 0.269
+  The same, but estimated: 0.254
