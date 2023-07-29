@@ -1,17 +1,17 @@
-YOLOv8 detection:
-  mAP-50: 0.957
-  mAP-50-95: 0.582
+YOLOv8 detekcija:
+  mAP-50: 95.7%
+  mAP-50-95: 58.2%
 
-Plate adjustment (transformation):
-  Success rate: 0.743
+Transformacija tablica:
+  Uspešnost: 74.3%
 
-Character segmentation:
-  Success rate: 0.469
+Prepoznavanje karaktera CNN mrežom:
+  Ukupna uspešnost segmentacije karaktera: 46.9%
+    Računa se kao uspešnost segmentacije karaktera tablica
+    bez obzira na to da li je prvobitno uspešno transformisana
+  Tačnost nad test setom za karaktere: 97.6%
+  Tačnost u praksi, nad karakterima sa tablica: 72.1%
 
-Character CNN:
-  Character test set accuracy: 0.976
-  License plate character set accuracy: 0.721
-
-General results:
-  Chance for everything to go exactly as planned and succeed: 0.269
-  The same, but estimated: 0.254
+Generalni rezultati:
+  Šansa da sve tačno pođe po planu i tako ostane do kraja i još plus da uspe: 26.9%
+  Isto to, samo ono što smo očekivali: 25.4%
